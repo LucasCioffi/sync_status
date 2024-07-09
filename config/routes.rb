@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  # root "posts#index"
+  post '/authenticate', to: 'sessions#create'
 end
